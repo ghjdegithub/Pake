@@ -8,8 +8,10 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
-          "windows": ["pake"],
+          "domain": "10.12.5.71",
+          "windows": [
+            "pake"
+          ],
           "enableTauriAPI": true
         }
       ]
@@ -25,7 +27,9 @@
       "all": true,
       "fs": {
         "all": true,
-        "scope": ["$DOWNLOAD/*"]
+        "scope": [
+          "$DOWNLOAD/*"
+        ]
       }
     }
   },
